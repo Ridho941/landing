@@ -1,0 +1,8 @@
+.loader {
+    background: rgb(221,148,46);
+background: linear-gradient(160deg, rgba(221,148,46,0.7456232492997199) 0%, rgba(221,113,46,0.7624299719887955) 25%, rgba(221,46,46,0.75) 68%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
