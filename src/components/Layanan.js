@@ -18,7 +18,7 @@ const Layanan = () => {
                 <h1 class="text-black text-center text-[35px] font-bold pt-10 pb-10"> Layanan Yang Kami Sediakan</h1>
                 <div class="flex justify-center gap-5">
                     <div class=" text-center p-6 bg-gray-100 rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="500">
-                        <h3 class=" font-bold text-[20px] mt-4 pb-2">IT Consultant</h3>
+                        <h3 class=" font-bold text-[20px] mt-4 pb-2">Software Host</h3>
                         <div className="pt-5">
                             <img src={layanan1} width='250px' className="justify-center" />
                         </div>
@@ -26,15 +26,15 @@ const Layanan = () => {
                         <p > dan berbagai hal IT lainnya</p>
                     </div>
                     <div class="text-center p-6 bg-gray-100 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="700">
-                        <h3 class=" font-bold text-[20px] mt-4 pb-2">Couser</h3>
+                        <h3 class=" font-bold text-[20px] mt-4 pb-2">Server</h3>
                         <div  className="pt-5">
                             <img src={layanan2} width='250px' />
                         </div>
-                        <p className="pt-5" >Jasa pelatihan IT, bisnis digital dan berbagai pelatihan </p>
+                        <p className="pt-5" >Pembelian server fisik atau penyewaan server fisik maupun cloud</p>
                         <p >lainnya yang berbasis IT</p>
                     </div>
                     <div class=" text-center p-6 bg-gray-100 rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="900">
-                        <h3 class=" font-bold text-[20px] mt-4 pb-2">Multimedia</h3>
+                        <h3 class=" font-bold text-[20px] mt-4 pb-2">Multimedia dan Marketing</h3>
                         <div  className="pt-5">
                             <img src={layanan3} width='250px' />
                         </div>
@@ -43,7 +43,7 @@ const Layanan = () => {
                              <p>Poster, dan Lain-Lain, serta analisa SLA.</p>
                     </div>
                     <div class="text-center p-6 bg-gray-100 rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="1100">
-                    <h3 class=" font-bold text-[20px] mt-4 pb-2">Server & Networking Analysis</h3>
+                    <h3 class=" font-bold text-[20px] mt-4 pb-2">Networking</h3>
                     <div>
                             <img src={layanan4} width='250px' />
                         </div>

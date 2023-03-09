@@ -1,5 +1,19 @@
 import React from "react";
-import Orang from '../image/blahh.jpg'
+import Orang from '../image/aldi.jpg'
+import Syaqif from '../image/syaqif.jpg'
+import Teza from '../image/teza.jpg'
+import Yudis from '../image/yudis.jpg'
+import Syihab from '../image/syihab.jpg'
+import Yafi from '../image/yafi.jpg'
+import Ikhwan from '../image/ikhwan.jpg'
+import Dani from '../image/dani.jpg'
+import Ridho from '../image/ridho.jpg'
+import Wili from '../image/wili.jpg'
+import Geya from '../image/geya.jfif'
+import Ghozy from '../image/ghozy.jfif'
+import Zidane from '../image/zidane.jpeg'
+import Abdur  from '../image/abdur.jpeg'
+import Clara  from '../image/clara.jpeg'
 import { Button, Element, Events, animateScroll as scroll, scrollSpy, scroller, Link as LinkScroll } from 'react-scroll';
 import { Link as LinkRoute } from 'react-router-dom';
 import Aos from "aos";
@@ -36,82 +50,153 @@ const Team = () => {
                     <div className="bg-white/10 p-8 rounded-xl">
                         <img src={Orang} alt="" className="w-32  mx-auto rounded-md" />
                         <div className="pt-7">
-                            <h4 className="text-xl font-bold text-center">Orang1</h4>
+                            <h4 className="text-xl font-bold text-center">Muhammad Aldian Nur</h4>
                         </div>
-                        <p className="text-sm leading-7 my-3 font-light text-justify">
-                            Saya berada di posisi striker dan major pebeh
+                        <p className="text-sm leading-7 my-3 font-light text-center">
+                           Direktur & Head Manager
                         </p>
                     </div>
 
                     <div className="bg-white/10 p-8 rounded-xl">
-                        <img src={Orang} alt="" className="w-32 mx-auto rounded-md" />
+                        <img src={Syaqif} alt="" className="w-32 mx-auto rounded-md" />
                         <div className="pt-7">
-                            <h4 className="text-xl font-bold text-center">Orang2</h4>
+                            <h4 className="text-xl font-bold text-center">Muhammad Syaqif</h4>
                         </div>
-                        <p className="text-sm leading-7 my-3 font-light  text-justify">
-                            Saya berada di posisi striker dan major pebeh
+                        <p className="text-sm leading-7 my-3 font-light  text-center">
+                            Chief Executive Officer
                         </p>
                     </div>
 
                     <div className="bg-white/10 p-8 rounded-xl">
-                        <img src={Orang} alt="" className="w-32 mx-auto rounded-md" />
+                        <img src={Ghozy} alt="" className="w-32 mx-auto rounded-md" />
                         <div className="pt-7">
-                            <h4 className="text-xl font-bold text-center">Orang3</h4>
+                            <h4 className="text-xl font-bold text-center">Ghozy</h4>
                         </div>
-                        <p className="text-sm leading-7 my-3 font-light text-justify">
-                            Saya berada di posisi striker dan major pebeh
+                        <p className="text-sm leading-7 my-3 font-light text-center">
+                            Business Analyst
                         </p>
                     </div>
 
                     <div className="bg-white/10 p-8 rounded-xl">
-                        <img src={Orang} alt="" className="w-32 mx-auto rounded-md" />
+                        <img src={Geya} alt="" className="w-32 mx-auto rounded-md" />
                         <div className="pt-7">
-                            <h4 className="text-xl font-bold text-center">Orang4</h4>
+                            <h4 className="text-xl font-bold text-center">Geyanissa Wanadyawati</h4>
                         </div>
-                        <p className="text-sm leading-7 my-3 font-light text-justify">
-                            Saya berada di posisi striker dan major pebeh
+                        <p className="text-sm leading-7 my-3 font-light text-center">
+                            Finance & Secretary
                         </p>
                     </div>
 
                     <div className="bg-white/10 p-8 rounded-xl">
-                        <img src={Orang} alt="" className="w-32 mx-auto rounded-md" />
+                        <img src={Teza} alt="" className="w-32 mx-auto rounded-md" />
                         <div className="pt-7">
-                            <h4 className="text-xl font-bold text-center">Orang5</h4>
+                            <h4 className="text-xl font-bold text-center">Ahmad Murteza Akbari</h4>
                         </div>
-                        <p className="text-sm leading-7 my-3 font-light text-justify">
-                            Saya berada di posisi striker dan major pebeh
+                        <p className="text-sm leading-7 my-3 font-light text-center">
+                            Software Engineer
                         </p>
                     </div>
 
                     <div className="bg-white/10 p-8 rounded-xl">
-                        <img src={Orang} alt="" className="w-32 mx-auto rounded-md" />
+                        <img src={Yudis} alt="" className="w-32 mx-auto rounded-md" />
                         <div className="pt-7">
-                            <h4 className="text-xl font-bold text-center">Orang6</h4>
+                            <h4 className="text-xl font-bold text-center">Yudistira Rivaldi</h4>
                         </div>
-                        <p className="text-sm leading-7 my-3 font-light text-justify">
-                            Saya berada di posisi striker dan major pebeh
+                        <p className="text-sm leading-7 my-3 font-light text-center">
+                            Software Engineer
                         </p>
                     </div>
 
                     <div className="bg-white/10 p-8 rounded-xl">
-                        <img src={Orang} alt="" className="w-32 mx-auto rounded-md" />
+                        <img src={Syihab} alt="" className="w-32 mx-auto rounded-md" />
                         <div className="pt-7">
-                            <h4 className="text-xl font-bold text-center">Orang7</h4>
+                            <h4 className="text-xl font-bold text-center">Muhammad Syihab</h4>
                         </div>
-                        <p className="text-sm leading-7 my-3 font-light text-justify">
-                            Saya berada di posisi striker dan major pebeh
+                        <p className="text-sm leading-7 my-3 font-light text-center">
+                            Software Engineer
                         </p>
                     </div>
 
                     <div className="bg-white/10 p-8 rounded-xl">
-                        <img src={Orang} alt="" className="w-32 mx-auto rounded-md" />
+                        <img src={Yafi} alt="" className="w-32 mx-auto rounded-md" />
                         <div className="pt-7">
-                            <h4 className="text-xl font-bold text-center">Orang8</h4>
+                            <h4 className="text-xl font-bold text-center">Muhammad Yafi Ibrahim Al Mishbah</h4>
                         </div>
-                        <p className="text-sm leading-7 my-3 font-light text-justify">
-                            Saya berada di posisi striker dan major pebeh
+                        <p className="text-sm leading-7 my-3 font-light text-center">
+                            Software Engineer
                         </p>
                     </div>
+
+                    <div className="bg-white/10 p-8 rounded-xl">
+                        <img src={Ikhwan} alt="" className="w-32 mx-auto rounded-md" />
+                        <div className="pt-7">
+                            <h4 className="text-xl font-bold text-center">Muhamad Nor Ikhwani</h4>
+                        </div>
+                        <p className="text-sm leading-7 my-3 font-light text-center">
+                            System Administrator
+                        </p>
+                    </div>
+
+                    <div className="bg-white/10 p-8 rounded-xl">
+                        <img src={Dani} alt="" className="w-32 mx-auto rounded-md" />
+                        <div className="pt-7">
+                            <h4 className="text-xl font-bold text-center">Muhammad Rizqi Ridhani</h4>
+                        </div>
+                        <p className="text-sm leading-7 my-3 font-light text-center">
+                            Network Engineer
+                        </p>
+                    </div>
+
+                    <div className="bg-white/10 p-8 rounded-xl">
+                        <img src={Ridho} alt="" className="w-32 mx-auto rounded-md" />
+                        <div className="pt-7">
+                            <h4 className="text-xl font-bold text-center">Muhammad Ridho Firdaus</h4>
+                        </div>
+                        <p className="text-sm leading-7 my-3 font-light text-center">
+                            Internship
+                        </p>
+                    </div>
+
+                    <div className="bg-white/10 p-8 rounded-xl">
+                        <img src={Wili} alt="" className="w-32 mx-auto rounded-md" />
+                        <div className="pt-7">
+                            <h4 className="text-xl font-bold text-center">William Djati Utomo</h4>
+                        </div>
+                        <p className="text-sm leading-7 my-3 font-light text-center">
+                        Internship
+                        </p>
+                    </div>
+
+                    <div className="bg-white/10 p-8 rounded-xl">
+                        <img src={Abdur} alt="" className="w-32 mx-auto rounded-md" />
+                        <div className="pt-7">
+                            <h4 className="text-xl font-bold text-center">Muhammad Abdurrahman</h4>
+                        </div>
+                        <p className="text-sm leading-7 my-3 font-light text-center">
+                        Internship
+                        </p>
+                    </div>
+
+                    <div className="bg-white/10 p-8 rounded-xl">
+                        <img src={Clara} alt="" className="w-32 mx-auto rounded-md" />
+                        <div className="pt-7">
+                            <h4 className="text-xl font-bold text-center">Clarieza Deswita Putri Adihtya</h4>
+                        </div>
+                        <p className="text-sm leading-7 my-3 font-light text-center">
+                        Internship
+                        </p>
+                    </div>
+
+                    <div className="bg-white/10 p-8 rounded-xl">
+                        <img src={Zidane} alt="" className="w-32 mx-auto rounded-md" />
+                        <div className="pt-7">
+                            <h4 className="text-xl font-bold text-center">Muhammad Zidane Ishomudin</h4>
+                        </div>
+                        <p className="text-sm leading-7 my-3 font-light text-center">
+                        Internship
+                        </p>
+                    </div>
+
                 </div>
             </div>
         </>

@@ -11,6 +11,22 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import logo1 from '../image/dinas.png'
 import logo2 from '../image/kanal.jpg'
+import tapin from '../image/tapin.png'
+import Banjarbaru from '../image/banjarbaru.png'
+import Daihatsu from '../image/daihatsu.jpg'
+import Orflo from '../image/orflo.png'
+import Teropong from '../image/teropong.png'
+import Braco from '../image/braco.png'
+import Uniska from '../image/uniska.png'
+import Wisata from '../image/wisata.png'
+import Aneka from '../image/aneka.jpeg'
+
+
+import Telkom from '../image/telkom.png'
+import Borneo from '../image/borneo.jpg'
+import Kaljs from '../image/kaljs.png'
+import Stimik from '../image/stimik.png'
+
 import layanan1 from '../image/layanan1.png'
 import layanan2 from '../image/layanan2.png'
 import layanan3 from '../image/layanan3.png'
@@ -78,7 +94,7 @@ const Home = () => {
                         <h1 class="text-black text-center text-[35px] font-bold pt-10 pb-10"> Layanan Yang Kami Sediakan</h1>
                         <div class="flex justify-center gap-5">
                             <div class=" text-center p-6 bg-gray-100 rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="500">
-                                <h3 class=" font-bold text-[20px] mt-4 pb-2">IT Consultant</h3>
+                                <h3 class=" font-bold text-[20px] mt-4 pb-2">Software Host</h3>
                                 <div className="pt-5">
                                     <img src={layanan1} width='250px' className="justify-center" />
                                 </div>
@@ -86,15 +102,15 @@ const Home = () => {
                                 <p > dan berbagai hal IT lainnya</p>
                             </div>
                             <div class="text-center p-6 bg-gray-100 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="700">
-                                <h3 class=" font-bold text-[20px] mt-4 pb-2">Couser</h3>
+                                <h3 class=" font-bold text-[20px] mt-4 pb-2">Server</h3>
                                 <div className="pt-5">
                                     <img src={layanan2} width='250px' />
                                 </div>
-                                <p className="pt-5" >Jasa pelatihan IT, bisnis digital dan berbagai pelatihan </p>
+                                <p className="pt-5" >Pembelian server fisik atau penyewaan server fisik maupun cloud</p>
                                 <p >lainnya yang berbasis IT</p>
                             </div>
                             <div class=" text-center p-6 bg-gray-100 rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="900">
-                                <h3 class=" font-bold text-[20px] mt-4 pb-2">Multimedia</h3>
+                                <h3 class=" font-bold text-[20px] mt-4 pb-2">Multimedia dan Marketing</h3>
                                 <div className="pt-5">
                                     <img src={layanan3} width='250px' />
                                 </div>
@@ -103,7 +119,7 @@ const Home = () => {
                                 <p>Poster, dan Lain-Lain, serta analisa SLA.</p>
                             </div>
                             <div class="text-center p-6 bg-gray-100 rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="1100">
-                                <h3 class=" font-bold text-[20px] mt-4 pb-2">Server & Networking Analysis</h3>
+                                <h3 class=" font-bold text-[20px] mt-4 pb-2">Networking</h3>
                                 <div>
                                     <img src={layanan4} width='250px' />
                                 </div>
@@ -274,15 +290,15 @@ const Home = () => {
 
                     <div className="grid grid-cols-5 mx-auto gap-8 px-4">
                         <div className="bg-white/10 p-8 rounded-xl">
-                            <a href="https://dlh.kalselprov.go.id/web/">
+                            <a href="#">
                                 <img src={logo1} alt="" className="h-32 mx-auto rounded-md" />
                             </a>
                             <div className="pt-7">
-                                <h4 className="text-xl font-bold text-center"><a href="https://dlh.kalselprov.go.id/web/">Dinas Kalsel</a></h4>
+                                <h4 className="text-xl font-bold text-center"><a href="#">Provinsi Kalimantan Selatan</a></h4>
                             </div>
-                            <p className="text-sm leading-7 my-3 font-light text-center">
+                            {/* <p className="text-sm leading-7 my-3 font-light text-center">
                                 Saya berada di posisi striker dan major pebeh
-                            </p>
+                            </p> */}
                         </div>
 
                         <div className="bg-white/10 p-8 rounded-xl">
@@ -290,58 +306,119 @@ const Home = () => {
                             <img src={logo2} alt="" className="h-32 mx-auto rounded-md" />
                             </a>
                             <div className="pt-7">
-                                <h4 className="text-xl font-bold text-center "><a herf="https://www.kanalkalimantan.com/">Kanal</a></h4>
+                                <h4 className="text-xl font-bold text-center "><a herf="https://www.kanalkalimantan.com/">Kanal Kalimantan</a></h4>
                             </div>
-                            <p className="text-sm leading-7 my-3 font-light text-center">
+                            {/* <p className="text-sm leading-7 my-3 font-light text-center">
                                 Saya berada di posisi striker dan major pebeh
-                            </p>
+                            </p> */}
                         </div>
 
                         <div className="bg-white/10 p-8 rounded-xl">
-                            <img src={logo1} alt="" className="h-32 mx-auto rounded-md" />
+                            <img src={tapin} alt="" className="h-32 mx-auto rounded-md" />
                             <div className="pt-7">
-                                <h4 className="text-xl font-bold text-center">Dinas bjm</h4>
+                                <h4 className="text-xl font-bold text-center">Kabupeten Tapin</h4>
                             </div>
-                            <p className="text-sm leading-7 my-3 font-light text-center">
+                            {/* <p className="text-sm leading-7 my-3 font-light text-center">
                                 Saya berada di posisi striker dan major pebeh
-                            </p>
+                            </p> */}
                         </div>
 
                         <div className="bg-white/10 p-8 rounded-xl">
-                            <img src={logo2} alt="" className="h-32 mx-auto rounded-md" />
+                            <img src={Banjarbaru} alt="" className="h-32 mx-auto rounded-md" />
                             <div className="pt-7">
-                                <h4 className="text-xl font-bold text-center">Asadas</h4>
+                                <h4 className="text-xl font-bold text-center">Kota Banjarbaru</h4>
                             </div>
-                            <p className="text-sm leading-7 my-3 font-light text-center">
+                            {/* <p className="text-sm leading-7 my-3 font-light text-center">
                                 Saya berada di posisi striker dan major pebeh
-                            </p>
+                            </p> */}
                         </div>
 
                         <div className="bg-white/10 p-8 rounded-xl">
-                            <img src={logo1} alt="" className="h-32 mx-auto rounded-md" />
+                            <img src={Daihatsu} alt="" className="h-32 mx-auto rounded-md" />
                             <div className="pt-7">
-                                <h4 className="text-xl font-bold text-center">Asadas</h4>
+                                <h4 className="text-xl font-bold text-center">Astra Daihatsu</h4>
                             </div>
-                            <p className="text-sm leading-7 my-3 font-light text-center ">
+                            {/* <p className="text-sm leading-7 my-3 font-light text-center ">
                                 Saya berada di posisi striker dan major pebeh
-                            </p>
+                            </p> */}
                         </div>
+
+                        <div className="bg-white/10 p-8 rounded-xl">
+                            <img src={Orflo} alt="" className="h-32 mx-auto rounded-md" />
+                            <div className="pt-7">
+                                <h4 className="text-xl font-bold text-center">Orflo Indonesia</h4>
+                            </div>
+                            {/* <p className="text-sm leading-7 my-3 font-light text-center ">
+                                Saya berada di posisi striker dan major pebeh
+                            </p> */}
+                        </div>
+
+                        <div className="bg-white/10 p-8 rounded-xl">
+                            <img src={Teropong} alt="" className="h-32 mx-auto rounded-md" />
+                            <div className="pt-7">
+                                <h4 className="text-xl font-bold text-center">Teropong Community</h4>
+                            </div>
+                            {/* <p className="text-sm leading-7 my-3 font-light text-center ">
+                                Saya berada di posisi striker dan major pebeh
+                            </p> */}
+                        </div>
+
+                        <div className="bg-white/10 p-8 rounded-xl">
+                            <img src={Braco} alt="" className="h-32 mx-auto rounded-md" />
+                            <div className="pt-7">
+                                <h4 className="text-xl font-bold text-center">Braco Indonesia</h4>
+                            </div>
+                            {/* <p className="text-sm leading-7 my-3 font-light text-center ">
+                                Saya berada di posisi striker dan major pebeh
+                            </p> */}
+                        </div>
+
+                        <div className="bg-white/10 p-8 rounded-xl">
+                            <img src={Uniska} alt="" className="h-32 mx-auto rounded-md" />
+                            <div className="pt-7">
+                                <h4 className="text-xl font-bold text-center">Universitas Islam Kalimantan</h4>
+                            </div>
+                            {/* <p className="text-sm leading-7 my-3 font-light text-center ">
+                                Saya berada di posisi striker dan major pebeh
+                            </p> */}
+                        </div>
+
+                        <div className="bg-white/10 p-8 rounded-xl">
+                            <img src={Aneka} alt="" className="h-32 mx-auto rounded-md" />
+                            <div className="pt-7">
+                                <h4 className="text-xl font-bold text-center">PT. Anugrah Energi Kalimantan</h4>
+                            </div>
+                            {/* <p className="text-sm leading-7 my-3 font-light text-center ">
+                                Saya berada di posisi striker dan major pebeh
+                            </p> */}
+                        </div>
+
+                        <div className="bg-white/10 p-8 rounded-xl">
+                            <img src={Wisata} alt="" className="h-32 mx-auto rounded-md" />
+                            <div className="pt-7">
+                                <h4 className="text-xl font-bold text-center">Wisata Pulau Tidung</h4>
+                            </div>
+                            {/* <p className="text-sm leading-7 my-3 font-light text-center ">
+                                Saya berada di posisi striker dan major pebeh
+                            </p> */}
+                        </div>
+                        
                     </div>
                 </div>
             </div>
 
             {/* Jasa */}
-            <div className="pt-8" id="jasa">
+            {/* <div className="pt-8" id="jasa">
                 <h1 className="font-bold text-[45px] text-center">Harga Paket Jasa</h1>
                 <p className="text-center pt-2">Dapatkan penawaran menarik hanya di Neumedira. Pilih paket sesuai kebutuhan dan tim profesional</p>
                 <p className="text-center pt-2">Neumedira akan mewujudkan aplikasi sesuai leinginan Anda</p>
                 <div className="flex pt-32 space-x-10 pr-4 pl-4 ">
 
                     <div className=" box-border border-solid h-80 w-96 rounded-xl shadow-2xl  " >
-                        <h1 className="text-center text-[24px] pt-6">Soon</h1>
+                        <h1 className="text-center text-[24px] pt-6">Pembuatan Software</h1>
                         <p className="text-center text-[12px] text-black">Harga mulai dari</p>
                         <div className="pt-4 text-center">
-                            <strong className="text-[24px] text-[#fb8c00]">Rp Soon,00</strong>
+                            <strong className="text-[24px] text-[#fb8c00]">Rp 999 K</strong>
                         </div>
                         <div className="p-5">
                             <p>Soon</p>
@@ -351,10 +428,10 @@ const Home = () => {
                     </div>
 
                     <div className="box-border h-80 w-96 rounded-xl shadow-2xl" >
-                        <h1 className="text-center text-[24px] pt-6">Soon</h1>
+                        <h1 className="text-center text-[24px] pt-6">Server Hosting</h1>
                         <p className="text-center text-[12px] text-black">Harga mulai dari</p>
                         <div className="pt-4 text-center">
-                            <strong className="text-[24px] text-[#fb8c00]">Rp Soon,00</strong>
+                            <strong className="text-[24px] text-[#fb8c00]">*Rp 9 K per Bulan</strong>
                         </div>
                         <div className="p-5">
                             <p>Soon</p>
@@ -364,10 +441,10 @@ const Home = () => {
                     </div>
 
                     <div className="box-border h-80 w-96 rounded-xl shadow-2xl">
-                        <h1 className="text-center text-[24px] pt-6">Soon</h1>
+                        <h1 className="text-center text-[24px] pt-6">Domain</h1>
                         <p className="text-center text-[12px] text-black">Harga mulai dari</p>
                         <div className="pt-4 text-center">
-                            <strong className="text-[24px] text-[#fb8c00]">Rp Soon,00</strong>
+                            <strong className="text-[24px] text-[#fb8c00]">*Rp 20 K</strong>
                         </div>
                         <div className="p-5">
                             <p>Soon</p>
@@ -377,10 +454,10 @@ const Home = () => {
                     </div>
 
                     <div className="box-border h-80 w-96 rounded-xl shadow-2xl">
-                        <h1 className="text-center text-[24px] pt-6">Soon</h1>
-                        <p className="text-center text-[12px] text-black">Harga mulai dari</p>
+                        <h1 className="text-center text-[24px] pt-6">Networking</h1>
+                        <p className="text-center text-[12px] text-black">Kami berikan penawaran terbaik</p>
                         <div className="pt-4 text-center">
-                            <strong className="text-[24px] text-[#fb8c00]">Rp Soon,00</strong>
+                            <strong className="text-[24px] text-[#fb8c00]">Kontak Sales</strong>
                         </div>
                         <div className="p-5">
                             <p>Soon</p>
@@ -389,7 +466,7 @@ const Home = () => {
                         <button className="mx-16 rounded-full hover:bg-red-500 duration-300 justify-center font-medium text-white bg-[#f4813f] w-40 h-10 ">Order Sekarang</button>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* Kerjasama */}
             <div>
@@ -410,48 +487,49 @@ const Home = () => {
                         <div >
                             <SwiperSlide>
                                 <div className="w-80 h-96 rounded-xl">
-                                    <center><img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="150px" className="rounded-xl" /></center>
+                                    <center><img src={Telkom} className="h-32 mx-auto rounded-md"  /></center>
                                     <div className="text-center pt-8">
-                                        <h1>Ikhwan</h1>
+                                        <h1>SMK Telkom Banjarbaru</h1>
                                     </div>
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
                                 <div className="w-80 h-96 rounded-xl">
-                                    <center><img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="150px" className="rounded-xl" /></center>
+                                    <center><img src={Borneo} className="h-32 mx-auto rounded-md" /></center>
                                     <div className="text-center pt-8">
-                                        <h1>Ikhwan</h1>
+                                        <h1>Borneo Koding</h1>
                                     </div>
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
                                 <div className="w-80 h-96 rounded-xl">
-                                    <center><img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="150px" className="rounded-xl" /></center>
+                                    <center><img src={Uniska} className="h-32 mx-auto rounded-md" /></center>
                                     <div className="text-center pt-8">
-                                        <h1>Ikhwan</h1>
+                                        <h1>Universitas Islam Kalimantan</h1>
                                     </div>
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
                                 <div className="w-80 h-96 rounded-xl">
-                                    <center><img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="150px" className="rounded-xl" /></center>
+                                    <center><img src={Kaljs} className="h-32 mx-auto rounded-md" /></center>
                                     <div className="text-center pt-8">
-                                        <h1>Ikhwan</h1>
+                                        <h1>KalselJS</h1>
                                     </div>
                                 </div>
                             </SwiperSlide>
 
                             <SwiperSlide>
                                 <div className="w-80 h-96 rounded-xl">
-                                    <center><img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="150px" className="rounded-xl" /></center>
+                                    <center><img src={Stimik} className="h-32 mx-auto rounded-md" /></center>
                                     <div className="text-center pt-8">
-                                        <h1>Ikhwan</h1>
+                                        <h1>Sekolah Tinggi Informatika</h1>
                                     </div>
                                 </div>
                             </SwiperSlide>
+
                         </div>
                     </Swiper>
                 </div>
