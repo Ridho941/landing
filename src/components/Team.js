@@ -190,7 +190,7 @@ const Team = () => {
                     <div className="bg-white/10 p-8 rounded-xl">
                         <img src={Zidane} alt="" className="w-32 mx-auto rounded-md" />
                         <div className="pt-7">
-                            <h4 className="text-xl font-bold text-center">Muhammad Zidane Ishomudin</h4>
+                            <h4 className="text-xl font-bold text-center">Zidane Ishomudin Dzaki</h4>
                         </div>
                         <p className="text-sm leading-7 my-3 font-light text-center">
                         Internship
