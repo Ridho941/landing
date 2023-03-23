@@ -118,16 +118,6 @@ const Team = () => {
                     </div>
 
                     <div className="bg-white/10 p-8 rounded-xl">
-                        <img src={Yafi} alt="" className="w-32 mx-auto rounded-md" />
-                        <div className="pt-7">
-                            <h4 className="text-xl font-bold text-center">Muhammad Yafi Ibrahim Al Mishbah</h4>
-                        </div>
-                        <p className="text-sm leading-7 my-3 font-light text-center">
-                            Software Engineer
-                        </p>
-                    </div>
-
-                    <div className="bg-white/10 p-8 rounded-xl">
                         <img src={Ikhwan} alt="" className="w-32 mx-auto rounded-md" />
                         <div className="pt-7">
                             <h4 className="text-xl font-bold text-center">Muhamad Nor Ikhwani</h4>
@@ -146,57 +136,6 @@ const Team = () => {
                             Network Engineer
                         </p>
                     </div>
-
-                    <div className="bg-white/10 p-8 rounded-xl">
-                        <img src={Ridho} alt="" className="w-32 mx-auto rounded-md" />
-                        <div className="pt-7">
-                            <h4 className="text-xl font-bold text-center">Muhammad Ridho Firdaus</h4>
-                        </div>
-                        <p className="text-sm leading-7 my-3 font-light text-center">
-                            Internship
-                        </p>
-                    </div>
-
-                    <div className="bg-white/10 p-8 rounded-xl">
-                        <img src={Wili} alt="" className="w-32 mx-auto rounded-md" />
-                        <div className="pt-7">
-                            <h4 className="text-xl font-bold text-center">William Djati Utomo</h4>
-                        </div>
-                        <p className="text-sm leading-7 my-3 font-light text-center">
-                        Internship
-                        </p>
-                    </div>
-
-                    <div className="bg-white/10 p-8 rounded-xl">
-                        <img src={Abdur} alt="" className="w-32 mx-auto rounded-md" />
-                        <div className="pt-7">
-                            <h4 className="text-xl font-bold text-center">Muhammad Abdurrahman</h4>
-                        </div>
-                        <p className="text-sm leading-7 my-3 font-light text-center">
-                        Internship
-                        </p>
-                    </div>
-
-                    <div className="bg-white/10 p-8 rounded-xl">
-                        <img src={Clara} alt="" className="w-32 mx-auto rounded-md" />
-                        <div className="pt-7">
-                            <h4 className="text-xl font-bold text-center">Clarieza Deswita Putri Adihtya</h4>
-                        </div>
-                        <p className="text-sm leading-7 my-3 font-light text-center">
-                        Internship
-                        </p>
-                    </div>
-
-                    <div className="bg-white/10 p-8 rounded-xl">
-                        <img src={Zidane} alt="" className="w-32 mx-auto rounded-md" />
-                        <div className="pt-7">
-                            <h4 className="text-xl font-bold text-center">Zidane Ishomudin Dzaki</h4>
-                        </div>
-                        <p className="text-sm leading-7 my-3 font-light text-center">
-                        Internship
-                        </p>
-                    </div>
-
                 </div>
             </div>
         </>
